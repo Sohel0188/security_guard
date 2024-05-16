@@ -1,0 +1,289 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    
+    height: 710px;
+    background-image: url('image/Div\ [banner].png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.menu-bar{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    
+    width: 80px;
+    margin-left:60px ;
+}
+.menu{
+    display: flex;
+    float: right;
+}
+.menu li{
+    color: #FB9D5C;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18.5px;
+}
+.mid{
+    height: 590px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.mid-left p{
+    color: #FB9D5C;
+    margin: 10px;
+    font-size: 20.5px;
+} 
+.mid-left h1{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 44.5px;
+} 
+.mid-left{
+    
+    width: 50%;
+    text-align: center;
+} 
+.mid-left button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FB9D5C;
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+} 
+.mid-right img{
+    margin-top: 25px;
+}
+.mid-logo{
+    padding:40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service{
+    padding: 30px;
+}
+.service-text{
+    text-align: center;
+
+}
+.service-text h1{
+    font-size: 37px;
+    padding: 10px;
+
+}
+.service-text p{
+    font-size: 17px;
+    padding: 20px;
+
+}
+.service-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    align-items: center;
+}
+.card{
+    
+    width: 356px;
+    border:1px solid #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card img{
+    margin: 10px;
+}
+.card p{
+    font-size: 16px;
+}
+.hire-us{
+    padding: 30px;
+    padding-bottom: 0px !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hire-us-right{
+    width: 45%;
+}
+.hire-us-right h1{
+    font-size: 40px;
+}
+.hire-us-right p{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+}
+.hire-us-right button{
+    padding : 12px 30px;
+    background-color: #0DCAF0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.contact-icon{
+    display: flex;
+    padding-top:30px;
+    justify-content: start;
+}
+.contact-icon img{
+    width: 30px;
+    margin-right: 20px;
+
+}
+
+.footer-section{
+    background-color: #000000;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+}
+
+.footer-content{
+    color: #C0BABA;
+    text-align: center;
+    padding: 10px;
+    width: 23%;
+}
+.footer-content h3{
+    color: #FB9D5C;
+    padding: 10px;
+}
+.contact{
+    width: 28% !important;
+}
+.footer-content p{
+    font-size: 17px;
+    
+}
+.footer-content img{
+    padding: 10px;
+}
+.footer-content li{
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 17px;
+ }
+ .address{
+    display: flex;
+    margin-bottom: 15px;
+ }
+ label{
+    color: #FB9D5C;
+ }
+
+ input::placeholder {
+    color: #FFFFFF; 
+}
+input{
+    background-color: #808080;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+}
+.footer-title{
+    color: #FB9D5C;
+}
+/*============== Media Query=============== */
+
+@media only screen and (max-width: 600px) {
+    header{
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10px ;
+    }
+    .logo img {
+        width: 50px;
+        margin-left: 0px;
+    }
+    .menu li {
+        padding: 5px;
+    }
+    .mid{
+        display: inline;
+    }
+    .mid-left {
+        width: 99%;
+        text-align: center;
+    }
+    .mid-left h1 {
+        font-size: 31.5px;
+    }
+    .mid-right img {
+        margin-top: 5px;
+        width: 288px;
+    }
+    .mid-logo {
+        padding: 0px;
+        display: inline;
+        text-align: center;
+    }
+    .service-card {
+        display: inline;
+        justify-content: space-between;
+        
+    }
+    .card {
+        width: 263px;
+        padding: 15px;
+        margin: 10px;
+    }
+    .hire-us {
+        display: inline;
+    }
+    .hire-us-left img{
+        width: 375px;
+    }
+    .hire-us-right {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        padding: 0px;
+    }
+    .hire-us-right h1 {
+        font-size: 26px;
+    }
+    .hire-us-right p {
+        padding: 20px;
+    }
+    .contact-icon {
+        display: block;
+    }
+    .footer-section {
+        background-color: #000000;
+        padding: 0px 40px;
+        display: block;
+        height:auto;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    .contact {
+        width: 100% !important;
+        text-align: center;
+    }
+        
+  }
